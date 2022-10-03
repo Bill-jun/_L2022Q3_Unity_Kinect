@@ -11,9 +11,9 @@ public class week04_Controller : MonoBehaviour
     {
         //MyCube = GameObject.Find("Cube");
         print($"MyCube의 이름은(.name) {MyCube.name}입니다.");
-        print($"MyCube의 활성상태(.active)는 {MyCube.active}입니다.");
+        print($"MyCube의 활성상태(.active)는 {MyCube.activeSelf}입니다.");
         MyCube.SetActive(true);
-        print($"MyCube의 활성상태를 {MyCube.active}로 바꿨습니다(.SetActive(true)).");
+        print($"MyCube의 활성상태를 {MyCube.activeSelf}로 바꿨습니다(.SetActive(true)).");
         print($"MyCube의 태그(.tag) {MyCube.tag}입니다.");
 
         MyTransform = MyCube.transform;
