@@ -11,5 +11,6 @@ public class MyNewScript : MonoBehaviour
     {
         string name = MyCube.name;
         print(name);
+        print(i);
     }
 }
